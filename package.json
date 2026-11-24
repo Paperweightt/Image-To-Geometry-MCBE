@@ -1,0 +1,19 @@
+{
+	"name": "image-to-geometry",
+	"module": "./src/main.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"typecheck": "bun check"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/node": "^26.6.6"
+	},
+	"peerDependencies": {
+		"typescript": "^7"
+	},
+	"dependencies": {
+		"sharp": "^0.35.5"
+	}
+}
